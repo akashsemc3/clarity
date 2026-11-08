@@ -127,6 +127,13 @@ Clarity supports both light and dark themes.
    ```bash
    ./gradlew assembleDebug
    ```
+  ## 🛠️ Development
+
+Clarity was created as an independent personal project through experimentation with AI-assisted development and Vibe Coding.
+Development approach: AI-assisted coding using Google Antigravity.
+The project began with an idea and evolved through experimentation, feature planning, UI decisions, testing and refinement.
+This project represents my exploration of how AI tools can help turn ideas into working applications.
+
 ## 📄Copyright & Credits
 
 © 2026 Akash
