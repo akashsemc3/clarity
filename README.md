@@ -4,7 +4,6 @@
   <img src="https://img.shields.io/badge/Platform-Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="Android" />
   <img src="https://img.shields.io/badge/Kotlin-2.0.0-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" alt="Kotlin" />
   <img src="https://img.shields.io/badge/UI-Jetpack_Compose_Material_3-4285F4?style=for-the-badge&logo=jetpackcompose&logoColor=white" alt="Jetpack Compose" />
-  <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="License MIT" />
 </p>
 
 > **A discreet, science-grounded self-mastery companion designed for neural rewiring, dopamine resensitization, and unyielding discipline.**
@@ -35,21 +34,13 @@ Feel free to connect on GitHub, open issues, or submit PRs!
 
 ---
 
-## 🔒 Discreet by Design (Zero Explicit Terms)
-Most habit and recovery trackers plaster explicit labels, guilt-inducing words, or awkward titles across notifications and home screens. **Clarity** takes the opposite approach:
-- **Discreet Identity**: Appears everywhere (app launcher, app drawer, lock screen, and home screen widgets) simply as **"Clarity"** or **"Clarity Counter"**.
-- **Empowering, Stoic Framing**: Replaces shame and crude terms with concepts of **Neural Rewiring**, **Dopamine Baseline Restoration**, **Androgen Sensitivity Peak**, **Energy Transmutation**, and **Self-Sovereignty**.
-- **Privacy-First**: Anyone glancing at your phone or home screen widget will only see a sleek, high-end mindfulness and focus counter.
-
----
-
 ## ✨ Key Features
 
 ### 1. ⏱️ Live Real-Time Streak Engine
 - **Live Counter**: Continuous ticking display tracking **Days, Hours, Minutes, and Seconds** of clean ascent.
 - **Dynamic Circular Progress**: Visual arc showing your progress toward the next major milestone.
 - **Adjustable Start Day**: Easily tap the streak circle to calibrate your start date if you began your journey earlier.
-- **Zero-Shame Reflection & Reset**: Stumbling is treated as neurological data, not failure. Prompts you to log the trigger (Boredom, Late Night Screen, Stress, Fatigue) and a lesson for next time.
+- **Reflection & Reset**: Stumbling is treated as neurological data, not failure. Prompts you to log the trigger (Boredom, Late Night Screen, Stress, Fatigue) and a lesson for next time.
 
 ### 2. 🌓 Dynamic Light & Dark Mode (Material 3)
 - Seamless one-tap toggle between **AMOLED Dark Mode** and **Crisp Botanical Light Mode** directly from the top bar.
@@ -103,8 +94,7 @@ Two Material 3 widgets configured for Android launchers:
 - **Local Storage**: Encrypted/Private SharedPreferences with Gson serialization
 
 ---
-
-## 🛠️ For Developers / Building from Source
+## 🛠️ Technical Setup / Building from Source
 
 1. Clone this repository:
    ```bash
@@ -116,9 +106,9 @@ Two Material 3 widgets configured for Android launchers:
    ```bash
    ./gradlew assembleDebug
    ```
+## 📄Copyright & Credits
 
----
-
-## 📄 License
-This project is open-source and available under the [MIT License](LICENSE).
-Copyright (c) 2026 Akash.
+© 2026 Akash
+Clarity is an independent personal project conceived and developed with AI-assisted coding tools, including Google Antigravity.
+The project direction, feature planning, design decisions, testing and development workflow were guided by me.
+All rights reserved to the extent permitted by applicable law.
