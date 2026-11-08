@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:scaleX="0.8"
+        android:scaleY="0.8"
+        android:translateX="10.8"
+        android:translateY="10.8">
+        <!-- Outer zen progress arc -->
+        <path
+            android:strokeColor="#2EE59D"
+            android:strokeWidth="5"
+            android:strokeLineCap="round"
+            android:pathData="M32,76 A32,32 0 1,1 76,76" />
+
+        <!-- Upward ascending chevron/diamond representing discipline and elevation -->
+        <path
+            android:fillColor="#22D3EE"
+            android:pathData="M54,34 L66,54 L54,48 L42,54 Z" />
+
+        <!-- Inner steady center light -->
+        <path
+            android:fillColor="#F8FAFC"
+            android:pathData="M54,62m-4,0a4,4 0 1,0 8,0a4,4 0 1,0 -8,0" />
+    </group>
+</vector>

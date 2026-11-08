@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_counter_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/widget_background"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Header: App Name & Rank Badge -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/widget_app_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:letterSpacing="0.12"
+            android:text="CLARITY"
+            android:textColor="#2EE59D"
+            android:textSize="11sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/widget_rank_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/widget_badge_bg"
+            android:paddingLeft="8dp"
+            android:paddingTop="3dp"
+            android:paddingRight="8dp"
+            android:paddingBottom="3dp"
+            android:text="ASCENT"
+            android:textColor="#2EE59D"
+            android:textSize="9sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <!-- Big Streak Count (spacing handled via marginTop) -->
+    <TextView
+        android:id="@+id/widget_streak_days"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:includeFontPadding="false"
+        android:text="DAY 1"
+        android:textColor="#F8FAFC"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <!-- Subtitle: Elapsed time -->
+    <TextView
+        android:id="@+id/widget_streak_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:text="00h 00m clean"
+        android:textColor="#94A3B8"
+        android:textSize="12sp" />
+
+    <!-- Milestone Progress Bar (spacing handled via marginTop) -->
+    <ProgressBar
+        android:id="@+id/widget_progress"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="6dp"
+        android:layout_marginTop="12dp"
+        android:max="100"
+        android:progress="33"
+        android:progressDrawable="@drawable/widget_progress_drawable" />
+
+    <!-- Milestone target label -->
+    <TextView
+        android:id="@+id/widget_milestone_target"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="Next: Day 3 • Turning Point"
+        android:textColor="#64748B"
+        android:textSize="10sp" />
+
+</LinearLayout>

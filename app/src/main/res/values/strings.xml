@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Clarity</string>
+    <string name="widget_counter_label">Clarity Counter</string>
+    <string name="widget_counter_description">Minimalist clean streak and milestone tracker.</string>
+    <string name="widget_quote_label">Clarity Motivation</string>
+    <string name="widget_quote_description">Streak status with daily stoic wisdom and urge shield.</string>
+</resources>
