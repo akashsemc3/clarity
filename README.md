@@ -94,6 +94,21 @@ Two Material 3 widgets configured for Android launchers:
 - **Local Storage**: Encrypted/Private SharedPreferences with Gson serialization
 
 ---
+##📱 Screenshots
+
+Clarity features a clean interface with both light and dark themes.
+☀️ Light Mode
+"Clarity Light Mode" (screenshots/lighthome.jpeg)
+🌙 Dark Mode
+"Clarity Dark Mode" (screenshots/dark1.jpeg)
+"Clarity Dark Mode" (screenshots/dark2.jpeg)
+"Clarity Dark Mode" (screenshots/dark3.jpeg)
+"Clarity Dark Mode" (screenshots/dark4.jpeg)
+
+📲 Home Screen Widget
+
+"Clarity Widget" (screenshots/widget.jpeg)
+---
 ## 🛠️ Technical Setup / Building from Source
 
 1. Clone this repository:
